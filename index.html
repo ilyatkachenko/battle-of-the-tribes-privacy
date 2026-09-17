@@ -166,7 +166,7 @@
         <div class="header">
             <h1>Privacy Policy</h1>
             <div class="game-name">Battle of the Tribes</div>
-            <div class="update-date">Last updated: August 2026</div>
+            <div class="update-date">Last updated: September 2026</div>
         </div>
 
         <h2>1. Introduction</h2>
@@ -191,6 +191,7 @@
             <li><strong>Network Information:</strong> IP address, connection type (WiFi/mobile data)</li>
             <li><strong>Gameplay Data:</strong> Game progress, scores, match history, wins/losses, player ratings</li>
             <li><strong>Technical Data:</strong> Crash logs, performance data, error reports</li>
+            <li><strong>Server Match Logs:</strong> Player ID, player name, selected hero, rating and match result, recorded by the game server during multiplayer matches</li>
         </ul>
 
         <h3>2.2 Information You Provide</h3>
@@ -227,6 +228,10 @@
             <tr>
                 <td>Improve game performance</td>
                 <td>Crash logs, Technical data</td>
+            </tr>
+            <tr>
+                <td>Diagnose server issues and investigate cheating</td>
+                <td>Player ID, Player name, Gameplay data (server match logs)</td>
             </tr>
             <tr>
                 <td>Prevent cheating and fraud</td>
@@ -271,12 +276,26 @@
             <h3>Edgegap (Game Server Hosting)</h3>
             <p>
                 We use Edgegap to host dedicated game servers for multiplayer matches. Edgegap processes
-                your IP address and connection data solely to route you to the nearest available server.
+                your IP address and connection data to route you to the nearest available server and to
+                operate the game server, including producing technical server logs.
             </p>
             <p>
                 Privacy Policy: <a href="https://edgegap.com/privacy-policy" target="_blank">https://edgegap.com/privacy-policy</a>
             </p>
+        </div>
 
+        <div class="highlight-box">
+            <h3>Cloudflare R2 (Log Storage)</h3>
+            <p>
+                We store technical logs of multiplayer game servers in Cloudflare R2. These logs are private,
+                access-restricted and automatically deleted after 30 days.
+            </p>
+            <p>
+                Privacy Policy: <a href="https://www.cloudflare.com/privacypolicy/" target="_blank">https://www.cloudflare.com/privacypolicy/</a>
+            </p>
+        </div>
+
+        <div class="highlight-box">
             <h3>Google Analytics for Firebase (Analytics)</h3>
             <p>
                 We use Google Analytics for Firebase to understand how players use the Game and to
@@ -321,6 +340,7 @@
             <li><strong>Gameplay Data:</strong> For the lifetime of your account or until you request deletion</li>
             <li><strong>Device Identifiers:</strong> Until you reset your advertising ID or request deletion</li>
             <li><strong>Crash Logs:</strong> Up to 90 days</li>
+            <li><strong>Server Match Logs:</strong> Up to 30 days, then automatically deleted</li>
             <li><strong>Analytics Data:</strong> Up to 14 months (event-level data in Google Analytics)</li>
         </ul>
 
